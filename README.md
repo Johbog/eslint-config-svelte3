@@ -7,7 +7,7 @@ Eslint config for svelte3
 Add the following to your package.json:
 
     "eslintConfig": {
-    	"extends": "svelte3"
+      "extends": "svelte3"
     }
 
 or create a .eslintrc.json config with:
