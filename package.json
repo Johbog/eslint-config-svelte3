@@ -1,5 +1,5 @@
 {
-  "name": "linter-svelte3",
+  "name": "eslint-config-svelte3",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
