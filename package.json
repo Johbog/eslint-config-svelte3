@@ -6,13 +6,13 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Johbog/linter-svelte3.git"
+    "url": "git+https://github.com/Johbog/eslint-config-svelte3.git"
   },
   "author": "Johbog",
   "bugs": {
-    "url": "https://github.com/Johbog/linter-svelte3/issues"
+    "url": "https://github.com/Johbog/eslint-config-svelte3/issues"
   },
-  "homepage": "https://github.com/Johbog/linter-svelte3#readme",
+  "homepage": "https://github.com/Johbog/eslint-config-svelte3#readme",
   "dependencies": {
     "eslint": "^7.9.0",
     "eslint-plugin-import": "^2.22.0",
