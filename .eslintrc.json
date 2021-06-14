@@ -104,7 +104,7 @@
 		"no-new-object": "error",
 		"no-new-require": "error",
 		"no-new-wrappers": "error",
-		"no-restricted-globals": "error",
+		"no-restricted-globals": [ "error", "event", "name" ],
 		"no-restricted-imports": "error",
 		"no-restricted-modules": "error",
 		"no-restricted-syntax": "error",
