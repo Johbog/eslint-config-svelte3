@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-svelte3",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -16,6 +16,6 @@
   "dependencies": {
     "eslint": "^7.9.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-svelte3": "^2.7.3"
+    "eslint-plugin-svelte3": "^3.2.0"
   }
 }
