@@ -19,7 +19,7 @@
 		"files": "*.svelte",
 		"processor": "svelte3/svelte3"
 	}],
-	"rules": {
+  "rules": {
 		"require-atomic-updates": 0,
 		"indent": [
 			"error",
@@ -53,8 +53,14 @@
 			"always"
 		],
 		"comma-dangle": [
-			"error",
-			"only-multiline"
+			"warn",
+			{
+				"arrays": "always-multiline",
+				"objects": "always-multiline",
+				"imports": "never",
+				"exports": "never",
+				"functions": "never"
+			}
 		],
 		"comma-spacing": "error",
 		"computed-property-spacing": [
@@ -66,6 +72,12 @@
 		"id-match": "error",
 		"jsx-quotes": "error",
 		"keyword-spacing": "error",
+		"key-spacing": [
+      "warn",
+			{
+				"beforeColon": false
+			}
+		],
 		"linebreak-style": [
 			"error",
 			"unix"
@@ -104,7 +116,11 @@
 		"no-new-object": "error",
 		"no-new-require": "error",
 		"no-new-wrappers": "error",
-		"no-restricted-globals": [ "error", "event", "name" ],
+		"no-restricted-globals": [
+			"error",
+			"event",
+			"name"
+		],
 		"no-restricted-imports": "error",
 		"no-restricted-modules": "error",
 		"no-restricted-syntax": "error",
