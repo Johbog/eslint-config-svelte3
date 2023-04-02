@@ -16,6 +16,16 @@
 		"svelte",
 		"import"
 	],
+	"overrides": [{
+		"files": "*.svelte",
+		"rules": {
+			"no-inner-declarations": 0,
+			"svelte/no-inner-declarations": [
+				"error",
+				"functions"
+			]
+		}
+	}],
   "rules": {
 		"no-undef": [
 			"error",
