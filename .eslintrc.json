@@ -176,6 +176,11 @@
 			"error",
 			"any"
 		],
-		"yield-star-spacing": "error"
+		"yield-star-spacing": "error",
+		"multiline-ternary": [
+			"error",
+			"never"
+		],
+		"no-nested-ternary": "error"
 	}
 }
