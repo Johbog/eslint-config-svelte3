@@ -16,6 +16,6 @@
   "dependencies": {
     "eslint": "^8.20.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-svelte3": "^4.0.0"
+    "eslint-plugin-svelte": "^2.25.0"
   }
 }
