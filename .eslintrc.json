@@ -48,7 +48,13 @@
 			"error",
 			"always"
 		],
-		"arrow-body-style": "error",
+		"arrow-body-style": [
+			"error",
+			"as-needed",
+			{
+				"requireReturnForObjectLiteral": true
+			}
+		],
 		"arrow-parens": [
 			"error",
 			"as-needed"
