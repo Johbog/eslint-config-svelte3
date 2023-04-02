@@ -209,6 +209,13 @@
 				"multiline": 1,
 				"singleline": 3
 			}
-		]
+		],
+		"svelte/mustache-spacing": "warn",
+		"svelte/no-extra-reactive-curlies": "warn",
+		"svelte/no-spaces-around-equal-signs-in-attribute": "error",
+		"svelte/prefer-class-directive": "error",
+		"svelte/shorthand-attribute": "warn",
+		"svelte/shorthand-directive": "warn",
+		"svelte/spaced-html-comment": "warn"
 	}
 }
