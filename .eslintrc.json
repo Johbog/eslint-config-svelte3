@@ -197,6 +197,18 @@
 					"quoted": true
 				}
 			}
+		],
+		"svelte/no-useless-mustaches": "warn",
+		"svelte/require-store-reactive-access": "warn",
+		"svelte/no-reactive-literals": "error",
+		"svelte/html-closing-bracket-spacing": "warn",
+		"svelte/indent": "warn",
+		"svelte/max-attributes-per-line": [
+			"error",
+			{
+				"multiline": 1,
+				"singleline": 3
+			}
 		]
 	}
 }
