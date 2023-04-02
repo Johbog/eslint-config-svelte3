@@ -185,12 +185,12 @@
 		],
 		"yield-star-spacing": "error",
 		"multiline-ternary": [
-			"error",
+			"warn",
 			"never"
 		],
 		"no-nested-ternary": "error",
 		"svelte/html-quotes": [
-			"error",
+			"warn",
 			{
 				"prefer": "double",
 				"dynamic": {
@@ -204,7 +204,7 @@
 		"svelte/html-closing-bracket-spacing": "warn",
 		"svelte/indent": "warn",
 		"svelte/max-attributes-per-line": [
-			"error",
+			"warn",
 			{
 				"multiline": 1,
 				"singleline": 3
@@ -212,8 +212,8 @@
 		],
 		"svelte/mustache-spacing": "warn",
 		"svelte/no-extra-reactive-curlies": "warn",
-		"svelte/no-spaces-around-equal-signs-in-attribute": "error",
-		"svelte/prefer-class-directive": "error",
+		"svelte/no-spaces-around-equal-signs-in-attribute": "warn",
+		"svelte/prefer-class-directive": "warn",
 		"svelte/shorthand-attribute": "warn",
 		"svelte/shorthand-directive": "warn",
 		"svelte/spaced-html-comment": "warn"
