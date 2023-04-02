@@ -26,7 +26,7 @@
 			]
 		}
 	}],
-  "rules": {
+	"rules": {
 		"no-undef": [
 			"error",
 			{
@@ -92,7 +92,7 @@
 		"jsx-quotes": "error",
 		"keyword-spacing": "error",
 		"key-spacing": [
-      "warn",
+			"warn",
 			{
 				"beforeColon": false
 			}
