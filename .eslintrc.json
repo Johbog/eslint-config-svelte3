@@ -16,10 +16,6 @@
 		"svelte",
 		"import"
 	],
-	"overrides": [{
-		"files": "*.svelte",
-		"processor": "svelte3/svelte3"
-	}],
   "rules": {
 		"no-undef": [
 			"error",
@@ -182,6 +178,15 @@
 			"error",
 			"never"
 		],
-		"no-nested-ternary": "error"
+		"no-nested-ternary": "error",
+		"svelte/html-quotes": [
+			"error",
+			{
+				"prefer": "double",
+				"dynamic": {
+					"quoted": true
+				}
+			}
+		]
 	}
 }
