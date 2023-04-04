@@ -211,7 +211,7 @@
 			}
 		],
 		"svelte/mustache-spacing": "warn",
-		"svelte/no-extra-reactive-curlies": "warn",
+		"svelte/no-extra-reactive-curlies": "error",
 		"svelte/no-spaces-around-equal-signs-in-attribute": "warn",
 		"svelte/prefer-class-directive": "warn",
 		"svelte/shorthand-attribute": "warn",
