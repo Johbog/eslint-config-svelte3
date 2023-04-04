@@ -207,7 +207,7 @@
 			"warn",
 			{
 				"multiline": 1,
-				"singleline": 3
+				"singleline": 5
 			}
 		],
 		"svelte/mustache-spacing": "warn",
