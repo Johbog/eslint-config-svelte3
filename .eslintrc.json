@@ -216,6 +216,7 @@
 		"svelte/prefer-class-directive": "warn",
 		"svelte/shorthand-attribute": "warn",
 		"svelte/shorthand-directive": "warn",
-		"svelte/spaced-html-comment": "warn"
+		"svelte/spaced-html-comment": "warn",
+		"svelte/no-at-html-tags": 0
 	}
 }
