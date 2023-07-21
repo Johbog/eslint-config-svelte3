@@ -115,7 +115,7 @@
 		"no-duplicate-imports": "error",
 		"import/extensions": [ 
 			"warn",
-			"always"
+			"ignorePackages"
 		],
 		"no-extend-native": "error",
 		"no-extra-label": "error",
