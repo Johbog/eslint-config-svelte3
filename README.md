@@ -1,3 +1,5 @@
+No longer maintained, use [garraflavatra/eslint-config-svelte3](https://github.com/garraflavatra/eslint-config-svelte3) instead.
+
 # eslint-config-svelte3
 Eslint config for svelte3
 
