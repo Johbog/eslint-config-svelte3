@@ -101,6 +101,10 @@
 			"error",
 			"unix"
 		],
+		"one-var": [
+			"warn", 
+			{ "const": "never" }
+		],
 		"no-unused-vars": "warn",
 		"no-alert": "error",
 		"no-caller": "error",
