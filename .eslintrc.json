@@ -20,7 +20,16 @@
 		"files": "*.svelte",
 		"rules": {
 			"indent": "off",
-			"no-inner-declarations": 0,
+			"svelte/indent": [
+				"error",
+				{
+					"indent": 2,
+					"ignoredNodes": [],
+					"switchCase": 1,
+					"alignAttributesVertically": false
+				}
+			],
+			"no-inner-declarations": "off",
 			"svelte/no-inner-declarations": [
 				"error",
 				"functions"
@@ -34,7 +43,7 @@
 				"typeof": true
 			}
 		],
-		"require-atomic-updates": 0,
+		"require-atomic-updates": "off",
 		"indent": [
 			"error",
 			2,
@@ -42,7 +51,7 @@
 				"SwitchCase": 1
 			}
 		],
-		"strict": 0,
+		"strict": "off",
 		"quotes": [
 			"error",
 			"single"
@@ -207,15 +216,6 @@
 		"svelte/require-store-reactive-access": "error",
 		"svelte/no-reactive-literals": "error",
 		"svelte/html-closing-bracket-spacing": "error",
-		"svelte/indent": [
-			"error",
-			{
-				"indent": 2,
-				"ignoredNodes": [],
-				"switchCase": 1,
-				"alignAttributesVertically": false
-			}
-		],
 		"svelte/max-attributes-per-line": [
 			"error",
 			{
@@ -230,6 +230,6 @@
 		"svelte/shorthand-attribute": "error",
 		"svelte/shorthand-directive": "error",
 		"svelte/spaced-html-comment": "warn",
-		"svelte/no-at-html-tags": 0
+		"svelte/no-at-html-tags": "off"
 	}
 }
