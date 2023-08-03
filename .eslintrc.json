@@ -19,6 +19,7 @@
 	"overrides": [{
 		"files": "*.svelte",
 		"rules": {
+			"indent": "off",
 			"no-inner-declarations": 0,
 			"svelte/no-inner-declarations": [
 				"error",
@@ -47,7 +48,7 @@
 			"single"
 		],
 		"semi": [
-			"warn",
+			"error",
 			"always"
 		],
 		"accessor-pairs": "error",
@@ -92,7 +93,7 @@
 		"jsx-quotes": "error",
 		"keyword-spacing": "error",
 		"key-spacing": [
-			"warn",
+			"error",
 			{
 				"beforeColon": false
 			}
@@ -113,8 +114,8 @@
 		"no-console": "off",
 		"no-div-regex": "error",
 		"no-duplicate-imports": "error",
-		"import/extensions": [ 
-			"warn",
+		"import/extensions": [
+			"error",
 			"ignorePackages"
 		],
 		"no-extend-native": "error",
@@ -189,12 +190,12 @@
 		],
 		"yield-star-spacing": "error",
 		"multiline-ternary": [
-			"warn",
+			"error",
 			"never"
 		],
 		"no-nested-ternary": "error",
 		"svelte/html-quotes": [
-			"warn",
+			"error",
 			{
 				"prefer": "double",
 				"dynamic": {
@@ -202,24 +203,32 @@
 				}
 			}
 		],
-		"svelte/no-useless-mustaches": "warn",
-		"svelte/require-store-reactive-access": "warn",
+		"svelte/no-useless-mustaches": "error",
+		"svelte/require-store-reactive-access": "error",
 		"svelte/no-reactive-literals": "error",
-		"svelte/html-closing-bracket-spacing": "warn",
-		"svelte/indent": "warn",
+		"svelte/html-closing-bracket-spacing": "error",
+		"svelte/indent": [
+			"error",
+			{
+				"indent": 2,
+				"ignoredNodes": [],
+				"switchCase": 1,
+				"alignAttributesVertically": false
+			}
+		],
 		"svelte/max-attributes-per-line": [
-			"warn",
+			"error",
 			{
 				"multiline": 1,
 				"singleline": 5
 			}
 		],
-		"svelte/mustache-spacing": "warn",
+		"svelte/mustache-spacing": "error",
 		"svelte/no-extra-reactive-curlies": "error",
-		"svelte/no-spaces-around-equal-signs-in-attribute": "warn",
-		"svelte/prefer-class-directive": "warn",
-		"svelte/shorthand-attribute": "warn",
-		"svelte/shorthand-directive": "warn",
+		"svelte/no-spaces-around-equal-signs-in-attribute": "error",
+		"svelte/prefer-class-directive": "error",
+		"svelte/shorthand-attribute": "error",
+		"svelte/shorthand-directive": "error",
 		"svelte/spaced-html-comment": "warn",
 		"svelte/no-at-html-tags": 0
 	}
