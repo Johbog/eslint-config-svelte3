@@ -24,9 +24,7 @@
 				"error",
 				{
 					"indent": 2,
-					"ignoredNodes": [],
-					"switchCase": 1,
-					"alignAttributesVertically": false
+					"switchCase": 1
 				}
 			],
 			"no-inner-declarations": "off",
