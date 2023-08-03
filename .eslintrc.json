@@ -198,7 +198,7 @@
 			{
 				"prefer": "double",
 				"dynamic": {
-					"quoted": true
+					"quoted": false
 				}
 			}
 		],
